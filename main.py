@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib_inline
 # Reading and sorting by rows and count..
-df1 = pd.read_csv(r"C:\Users\RAGHAVENDRA KATAKAM\Desktop\datacamp python\datacamp datasets\btc_06122017.csv")
+df1 = pd.read_csv(r"C:\Users\Desktop\datacamp python\datacamp datasets\btc_06122017.csv")
 market_cap = df1[['id','market_cap_usd']]
 print(market_cap.count())
 # Removing NAn and count
